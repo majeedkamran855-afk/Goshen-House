@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Forest Deep Green & Warm Cream Earth Palette */
+    --background: 40 25% 97%; /* #F9F7F2 warm organic backdrop */
+    --foreground: 110 20% 15%; /* #1C261B deep earthy text */
+
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 110 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 110 20% 15%;
+
+    --primary: 112 21% 27%; /* #3D5337 Deep Sage / Olive Green */
+    --primary-foreground: 40 30% 96%;
+
+    --secondary: 40 30% 91%; /* #EFECE6 Warm Sand tint */
+    --secondary-foreground: 112 21% 22%;
+
+    --muted: 40 20% 93%; /* Soft subtle background */
+    --muted-foreground: 110 10% 40%; /* Muted text */
+
+    --accent: 38 65% 55%; /* #D79934 Warm Gold / Amber Accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 18% 88%;
+    --input: 40 18% 88%;
+    --ring: 112 21% 27%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 112 21% 15%;
+    --sidebar-foreground: 40 30% 96%;
+    --sidebar-primary: 38 65% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 112 21% 22%;
+    --sidebar-accent-foreground: 40 30% 96%;
+    --sidebar-border: 112 21% 25%;
+    --sidebar-ring: 38 65% 55%;
+  }
+
+  .dark {
+    --background: 112 25% 10%;
+    --foreground: 40 30% 96%;
+    --card: 112 20% 14%;
+    --card-foreground: 40 30% 96%;
+    --popover: 112 20% 14%;
+    --popover-foreground: 40 30% 96%;
+    --primary: 112 25% 45%;
+    --primary-foreground: 40 30% 98%;
+    --secondary: 112 18% 20%;
+    --secondary-foreground: 40 30% 96%;
+    --muted: 112 18% 18%;
+    --muted-foreground: 40 15% 70%;
+    --accent: 38 65% 55%;
+    --accent-foreground: 0 0% 100%;
+    --border: 112 18% 22%;
+    --input: 112 18% 22%;
+    --ring: 38 65% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family:
+      "Plus Jakarta Sans",
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-heading {
+    font-family: "Playfair Display", Georgia, serif;
+  }
+}
