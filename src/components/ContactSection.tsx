@@ -75,7 +75,7 @@ export const ContactSection: React.FC = () => {
 
             <div className="space-y-4">
               <a
-                href="tel:7136359279"
+                href="tel:+1 832-762-6156"
                 className="flex items-center gap-4 p-4 rounded-2xl bg-card border border-border/80 shadow-xs hover:shadow-md transition-all group"
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
