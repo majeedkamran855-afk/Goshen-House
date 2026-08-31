@@ -29,10 +29,10 @@ export const Footer: React.FC = () => {
               <p className="flex items-center gap-2">
                 <span>📞</span>{" "}
                 <a
-                  href="tel:7136359279"
+                  href="tel:+1 832-762-6156"
                   className="hover:text-white transition-colors"
                 >
-                  (713) 635-9279
+                  +1 832-762-6156
                 </a>
               </p>
               <p className="flex items-center gap-2">
