@@ -108,7 +108,7 @@ export const Navbar: React.FC = () => {
           {/* Action CTAs */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:7136359279"
+              href="tel:+1 832-762-6156"
               className="text-xs font-semibold px-3 py-2 text-foreground/70 hover:text-primary flex items-center gap-1.5 transition-colors"
             >
               <svg
@@ -124,7 +124,7 @@ export const Navbar: React.FC = () => {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              (713) 635-9279
+              +1 832-762-6156
             </a>
             <Link
               to="/forms"
@@ -224,7 +224,7 @@ export const Navbar: React.FC = () => {
 
           <div className="pt-2 flex flex-col gap-2">
             <a
-              href="tel:7136359279"
+              href="tel:+1 832-762-6156"
               className="w-full text-center py-2.5 rounded-xl border border-border text-foreground font-medium flex items-center justify-center gap-2"
             >
               <svg
@@ -240,7 +240,7 @@ export const Navbar: React.FC = () => {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              Call (713) 635-9279
+              Call +1 832-762-6156
             </a>
             <Link
               to="/forms"
