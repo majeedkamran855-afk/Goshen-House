@@ -86,7 +86,7 @@ export const ContactSection: React.FC = () => {
                     Phone Number
                   </p>
                   <p className="text-base font-bold text-foreground group-hover:text-primary transition-colors">
-                    (713) 635-9279
+                    +1 832-762-6156
                   </p>
                 </div>
               </a>
