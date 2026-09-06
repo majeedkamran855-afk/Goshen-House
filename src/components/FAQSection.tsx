@@ -7,18 +7,7 @@ interface FAQItem {
 }
 
 const faqs: FAQItem[] = [
-  {
-    category: "Pricing",
-    question: "What is included in the $800/month rate?",
-    answer:
-      "Our flat rate includes fully furnished private/shared rooms, all utilities (electricity, water, gas, high-speed Wi-Fi internet), essential hygiene toiletries, cleaning supplies, pest control, and access to home care ADL assistance links.",
-  },
-  {
-    category: "Pricing",
-    question: "Are there any hidden fees or security deposits?",
-    answer:
-      "No. We pride ourselves on transparent, predictable pricing. There are zero surprise maintenance fees or hidden electric bills.",
-  },
+
   {
     category: "Eligibility",
     question: "What income sources do you accept?",
