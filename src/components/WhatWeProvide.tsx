@@ -141,7 +141,7 @@ export const WhatWeProvide: React.FC = () => {
                 Starting At
               </span>
               <p className="text-5xl font-extrabold text-primary tracking-tight">
-                $800
+                $1000
               </p>
               <span className="text-xs font-bold text-muted-foreground uppercase tracking-widest block">
                 / Month • All Included
